@@ -1,0 +1,180 @@
+body{
+  text-align: center;
+}
+
+h1,h2{
+    font-family: 'Indie Flower', cursive;
+  }
+  
+  h1{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    background-color: blue;
+  color: white;
+  }
+  
+  h2{
+    margin-top:30px;
+  }
+  
+  #randomImageContainer, #listImageContainer{
+    width:100%;
+    min-height: 300px;
+    background-size: contain;
+    background-position: center center;
+  
+  }
+  
+  #randomImageContainer{
+    background-color:#fff;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+
+  }
+  
+  button{
+    margin-top:30px;
+    text-align:center;
+    /**/
+     background-color: #192a56;
+    border: #192a56;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+
+    
+    align-items: column;
+    
+  }
+
+  button:active {
+    transform: scale(.97);
+}
+
+button:focus{
+    outline: none;
+}
+  
+  .alert{
+    display:none;
+  }
+  
+  img{
+    max-height:300px;
+  }
+  
+  #listImageContainer{
+    margin-top:30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+  }
+  
+  #dogDropDown{
+    padding:2px;
+    margin-top:30px;
+    text-align:center;
+    /**/
+     background-color: #192a56;
+    border: #192a56;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+
+  }
+  
+  #dogInfo{
+    text-align:left;
+    margin-top:35px;
+  }
+  
+  .form-control{
+    font-size:1.2em;
+  }
+  
+  .container-fluid{
+    background:#efefef;
+    margin-top:30px;
+    padding-bottom:30px;
+  }
+  
+  .container-fluid:last-of-type{
+    background:#fff;
+    padding-bottom:30px;
+  }
+  
+  .container, .card-deck{
+    margin-top:30px;
+  }
+  
+/*
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
+body {
+    background: linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0.6)), url(bckg.jpg) center center/cover;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.results{
+   
+    display: flex;
+    align-items: bottom;
+    justify-content: center;
+
+}
+
+.result{
+   
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    height: 400px;
+    width: 300px;
+}
+
+.result img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.buttons{
+    display: flex;
+    align-items: column;
+    justify-content: center;
+}
+
+button{
+    background-color: #192a56;
+    border: #192a56;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+button:active {
+    transform: scale(.97);
+}
+
+button:focus{
+    outline: none;
+}
+*/

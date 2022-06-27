@@ -1,0 +1,34 @@
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <title>MY DOG API APP</title>
+  <script src="https://kit.fontawesome.com/1aeb8cf739.js" crossorigin="anonymous"></script>
+  <script defer src="app.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row text-center">
+      <h1 class="text-center">MY DOG API APP</h1>
+      <p id="dogInfo"></p>
+      <h2>Get Random Images Of Dogs</h2>
+      <div class="alert alert-danger" role="alert"></div>
+      <div id="randomImageContainer"></div> <!--style="background-image: url('pholder.jpg')"-->
+      <button class="btn btn-primary random">Choose Random Dog<i class="fa-solid fa-dog"></i></button>   
+    </div>
+  </div>
+  
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row text-center">
+        <h2>Select Breed From The Dropdown Menu</h2>
+        <div class="form-group">
+          <select name="dogDropdown" id="dogDropDown" class="form-control"></select>
+        </div>
+        <div id="listImageContainer" ></div><!--style="background-image: url('placeholder.jpg')"-->
+        <button class="btn btn-primary list"><i class="fa-solid fa-computer-mouse">Click For More Of This Breed  </i></button>
+      </div>
+    </div><!--end container-->
+  </div><!--end container fluid-->
+</body>
+</html>
