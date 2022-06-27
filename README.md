@@ -1,0 +1,1 @@
+This project is about Dog API where various breeds of dogs are displayed with just a click of a button as well as with the dropdwon menu when one wants to choose a specific breed of dogs. The project has integrated the use of public dog API to fetch data from the  dogs' breeds.
